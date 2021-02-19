@@ -1,8 +1,8 @@
 import discord
 import requests, json
 from plexapi.myplex import PlexServer
-baseurl = 'http://192.168.1.218:32400/'
-token =   'uqwSPYQ6vAgttUxRZg6N'
+baseurl = 'PlexURL
+token =   'PlexToken'
 plex = PlexServer(baseurl, token)
 client = discord.Client()
 
@@ -40,5 +40,5 @@ async def on_message(message):
         
         
 
-client.run('ODEwOTc2OTY2NDExOTQzOTU3.YCrfKA.0WloBcurMkHCPQVlpNa4jCwoze0')
+client.run('BotToken')
 
